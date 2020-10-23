@@ -8,5 +8,7 @@ let photo = image[numPhoto]
 
 window.addEventListener("load", function() {
     main.style.backgroundImage = "url(" + photo + ")";
-    main.style.backgroundSize = "cover";
+    main.style.backgroundSize = "contain";
+    main.style.backgroundRepeat = "no-repeat";
+    main.style.backgroundPosition= "center";
 })
