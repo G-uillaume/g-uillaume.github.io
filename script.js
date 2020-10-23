@@ -1,6 +1,6 @@
 let main = document.querySelector("main");
 
-let image = ["img/Lille.jpg", "img/BXLVelo.jpg", "img/Cinquantenaire.jpg", "img/Noel.jpg", "img/Paris.jpg", "img/unsReichts.jpg"];
+let image = ["img/Lille.jpg", "img/BXLVelo.jpg", "img/Cinquantenaire.jpg", "img/Noel.jpg", "img/Paris.jpg", "img/UnsReichts.jpg"];
  
 let numPhoto = Math.floor(Math.random()  * 6);
 
